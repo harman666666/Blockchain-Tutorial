@@ -1,7 +1,9 @@
-import hashlib as hasher
-import datetime as date
 from flask import Flask
 from flask import request
+import json
+import requests
+import hashlib as hasher
+import datetime as date
 
 '''
 From now on, SnakeCoin’s data will be transactions, so each block’s data field will be a list of some transactions. We’ll 
